@@ -1,7 +1,5 @@
 function Footer() {
-    return(
-        <Footer>
-           <a>All rights Reserved</a>
-        </Footer>
-    );
+    return(<Footer>
+        <a>@Odhiamboreagan</a>
+    </Footer>);
 };
