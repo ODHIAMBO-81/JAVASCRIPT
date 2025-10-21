@@ -1,13 +1,24 @@
-import StudentList from "./components/StudentList";
+
+import Header from "./src/COMPONENT/Header.jsx"
+import Hero from "./src/COMPONENT/Hero.jsx"
+import Stats from "./src/COMPONENT/Stats.jsx"
+import Testimonials from "./src/COMPONENT/Testimonials.jsx"
+import Footer from "./src/COMPONENT/Footer.jsx"
+import".App.css"
+
 
 function App() {
-    return (
-        <div>
-            <h1>MongoDB CRUD Demo</h1>
-            <StudentList />
+  const [count, setCount] = useState(0)
 
-        </div>
-    );
-}
+  return (
+    <>
+     <Header />
+     <Stats />
+     <Hero />
+     <Testimonials />
+     <Footer />
+    </>
+  );
+};
 
-export default App;
+export default App
